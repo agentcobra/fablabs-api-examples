@@ -1,17 +1,17 @@
 {
-  "name": "node-js-getting-started",
+  "name": "fablabs-io.oauth-node",
   "version": "0.1.5",
-  "description": "A sample Node.js app using Express 4",
+  "description": "A barebones oAuth example for Fablabs.io",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "2.3.3",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "simple-oauth2": "1.3.21"
   },
   "engines": {
-    "node": "0.12.7"
+    "node": "0.10.24"
   },
   "repository": {
     "type": "git",
