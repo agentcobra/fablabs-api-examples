@@ -1,6 +1,8 @@
 # Fablabs.io - oAuth Access
 
-### Getting started to the beta Fablabs.io API
+## Getting started to the beta Fablabs.io API
+
+*[Fablabs.io](http://fablabs.io) can be the authentication provider for your next fablab project. Check how!*
 
 **Fablabs.io barebones Node.js oAuth example**
 
