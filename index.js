@@ -1,14 +1,12 @@
 var express = require('express'),
     app = express();
 
-process.env.DEBUG = true;
-
 // fablabs.io oAuth Registered App settings - https://www.fablabs.io/oauth/applications/
 var config = {
-    clientID: '7e9a2eb773cd40349efadd2ca363eb14aeb3956038fe1b961b9545910c0a1a9f',
-    clientSecret: '88023adc59d5104d2dd37500fc1c593d1530acb4bc1d4049080cf7c3388e4d9e',
-    callbackURL: 'http://quickdev.fablabbcn.org:3000/callback',
-    appPort: 3000
+    clientID: '1204a007bebfe971ec89db90a0b994db8c49327f2cbed2c6c7bcbd13f471697a',
+    clientSecret: '5200a22e675b7d963739382531012be1c31cf5ee5014958e5ece6192c120e965',
+    callbackURL: 'https://infinite-shelf-9510.herokuapp.com/callback',
+    appPort: process.env.PORT || 8080
 }
 
 // fablabs.io oAuth provider settings
