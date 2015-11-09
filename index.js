@@ -5,8 +5,8 @@ var express = require('express'),
 var config = {
     clientID: '1204a007bebfe971ec89db90a0b994db8c49327f2cbed2c6c7bcbd13f471697a',
     clientSecret: '5200a22e675b7d963739382531012be1c31cf5ee5014958e5ece6192c120e965',
-    callbackURL: 'https://oauth-fablabs-io.herokuapp.com/callback',
-    appPort: process.env.PORT || 8080
+    callbackURL: 'https://oauth-fablabs-io.herokuapp.com/callback', // On local test ex: https://localhost:8080
+    appPort: process.env.PORT // On local test ex: 8080
 }
 
 // fablabs.io oAuth provider settings

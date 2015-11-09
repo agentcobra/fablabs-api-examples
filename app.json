@@ -1,7 +1,7 @@
 {
   "name": "Fablabs.io oAuth node example",
   "description": "A barebones oAuth example for Fablabs.io",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "repository": "https://github.com/fablabbcn/fablabs-api-examples.git",
   "logo": "",
   "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs"
